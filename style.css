@@ -40,6 +40,16 @@ button {
   background-color: red;
   padding: 5px;
 }
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: lightgray;
+}
+a:hover {
+  text-decoration:underline;
+  color: aliceblue;
+}
 input:focus {
   background-color: greenyellow;
 }
