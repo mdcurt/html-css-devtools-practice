@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen:wght@400;700&display=swap');
+
 body {
+  font: 1.5rem "Silkscreen";
   text-align: center;
   background-color: black;
 
@@ -19,9 +22,9 @@ p {
 
 }
 section {
-  background-color: blue;
+  background-color:greenyellow;
   padding-left: 20px;
-  color: white;
+  color:black;
 }
 form {
   align-items: center;
@@ -29,6 +32,10 @@ form {
 
 }
 button {
+  font: 1.5rem "Silkscreen";
   background-color: red;
   padding: 5px;
+}
+input:focus {
+  background-color: greenyellow;
 }
