@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen:wght@400;700&display=swap');
-
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
 body {
   font: 1.5rem "Silkscreen";
   text-align: center;
@@ -38,4 +42,15 @@ button {
 }
 input:focus {
   background-color: greenyellow;
+}
+@media screen and (maxwidth: 600px) {
+  body {
+    font-size: smaller;
+    background-color: red;
+    padding: 1rem;
+  }
+  button {
+    background-color: black;
+    color: red;
+  }
 }
