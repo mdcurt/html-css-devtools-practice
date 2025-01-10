@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+
+}
+html {
+  text-align: center;
+}
+h1 {
+background-color: gray;
+font-size: medium;
+color: whitesmoke;
+
+}
+p {
+  background-color: black;
+  font-size: small;
+  color: gray;
+
+}
+section {
+  background-color: aquamarine;
+  padding-left: 20px;
+}
+form {
+  align-items: center;
+  col
+
+}
