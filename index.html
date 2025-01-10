@@ -27,14 +27,40 @@
       alt="Small Square Google Emblem"
     />
     <a href="http://www.google.com">Google</a>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" placeholder="Enter your name:"
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="Your email:">
-      <label for="message">Message:</label>
-      <input type="text" id="message" name="message" placeholder="Write Your message here">
-      <input type="submit" value="Submit">
-    </form>
+    <hr />
+    <article id="contact">
+      <h2>Contact Me</h2>
+
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Your Information:</legend>
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name:"
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your email:"
+          />
+          <label for="message">Message:</label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Type your message here:"
+          ></textarea>
+        </fieldset>
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </article>
   </body>
 </html>
