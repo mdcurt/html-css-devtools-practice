@@ -43,7 +43,7 @@ button {
 input:focus {
   background-color: greenyellow;
 }
-@media screen and (maxwidth: 600px) {
+@media screen and (max-width: 600px) {
   body {
     font-size: smaller;
     background-color: red;
@@ -53,4 +53,26 @@ input:focus {
     background-color: black;
     color: red;
   }
+  h1 {
+    background-color: black;
+    font-size: medium;
+    color: red;
+    
+    }
+    p {
+      background-color: red;
+      font-size: small;
+      color: black;
+    
+    }
+    section {
+      background-color:black;
+      padding-left: 20px;
+      color:red;
+    }
+    form {
+      align-items: center;
+      color:black
+    
+    }
 }
