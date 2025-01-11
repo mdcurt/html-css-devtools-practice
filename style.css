@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Silkscreen:wght@400;700&display=swap');
+/*Above, the font Silkscreen is imported from google fonts.  Below, a css reset is provided to give a clean slate in terms of margin and padding.*/
 * {
   margin: 0;
   padding:0;
@@ -8,26 +9,32 @@ body {
   font: 1.5rem "Silkscreen";
   text-align: center;
   background-color: black;
-
 }
 html {
   text-align: center;
 }
 h1 {
 background-color: greenyellow;
-font-size: medium;
+font-size: x-large;
 color: black;
+
+}
+div {
+  width: fit-content;
+  padding: 3rem;
+  border: 2.5rem;
+  margin: 1.5rem;
 
 }
 p {
   background-color: black;
   font-size: small;
   color: greenyellow;
+  padding: 1rem;
 
 }
 section {
   background-color:greenyellow;
-  padding-left: 20px;
   color:black;
 }
 form {
@@ -43,6 +50,7 @@ button {
 a {
   text-decoration: none;
 }
+/*while the above css focuses on the anchor tag selector more generally, below, the css works on the anchor tag as the user interacts with it*/
 a:visited {
   color: lightgray;
 }
@@ -53,6 +61,13 @@ a:hover {
 input:focus {
   background-color: greenyellow;
 }
+footer {
+  background-color: white;
+  color: black;
+  position: sticky;
+  bottom: 0;
+}
+/*below, a media query changes the display of the website for viewports smaller than 600 pixels*/
 @media screen and (max-width: 600px) {
   body {
     font-size: smaller;
